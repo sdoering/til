@@ -3,4 +3,6 @@
 Math.round((new Date).getTime()/1E3);
 Math.round((new Date).getTime()/1000);
 
-// are identical. '1E3' is just shorter and is used by Google in t─e analytics.js file. 
+// are identical. '1E3' is just shorter and is used by Google in t─e analytics.js file.
+// btw 1E4 == 10000 and so on... 
+ 
