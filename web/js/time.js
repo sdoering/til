@@ -24,7 +24,7 @@ $.each({
 
   hours = hours || 12; // hour '0' should be '12'
 
-  trackingService.pushToDataLayer('dsdSection.' + type + 'Time', hours + ':' + minutes + ' ' + meridiem);
+  datalayer.push('time.' + type + 'Time', hours + ':' + minutes + ' ' + meridiem);
 
 });
 // learned thanks to https://github.com/thoras
